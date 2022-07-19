@@ -1,0 +1,55 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.peacock-area {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+}
+
+svg {
+  display: block;
+}
+
+.feather .outer {
+  fill: url(#featherfill);
+}
+
+.st2 {
+  fill: #2853C6;
+}
+
+.st3 {
+  fill: #00BBB7;
+}
+
+.st4 {
+  fill: #2F0C79;
+}
+
+#scene {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.peacock-body-area {
+  fill: #001b4c;
+}
+
+body {
+  background: #001b4c;
+}
